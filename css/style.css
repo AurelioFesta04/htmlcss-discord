@@ -1,214 +1,139 @@
-body {
-    margin: 0 auto;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.heading {
-    background-color: lightpink;
-    max-width: 100%;
-    height: 75px;
-    padding-top: 20px;
+.headerback {
+    background-color: hsl(222.77deg 81.59% 53.14%);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+    align-items: center;
+}
+
+.list1 {
+    display: flex;
+    color: hsl(0deg 0% 100%);
+    justify-content: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.sublist1 {
+    margin: 0px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0deg 0% 100%);
+}
+
+.Login {
+    color: black;
+    background-color: hsl(0deg 0% 100%);
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.hero {
+    margin: 0 auto;
+    background-color: hsl(222.77deg 81.59% 53.14%);
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    line-height: 40px;
+    padding: 190px;
+    align-items: center;
+
+    /* non riesco a mettere l'immagine di background */
+}
+
+.title1 {
+    color: hsl(0deg 0% 100%);
+    font-size: 50px;
+}
+
+.par1 {
+    font-size: 20px;
+    color: hsl(0deg 0% 100%);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.download {
+    color: black;
+    background-color: hsl(0deg 0% 100%);
+    padding: 20px 8px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.browser {
+    color: hsl(0deg 0% 100%);
+    background-color: black;
+    padding: 20px 8px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.title2 {
+    font-size: 50px;
+}
+
+.par2 {
+    font-size: 20px;
+    line-height: 40px;
 }
 
 .container1 {
     display: flex;
-    width: 60%;
-    height: 50px;
-    background-color: lawngreen;
-    margin: 0 auto;
-    /* debug */
-    border: 2px dashed black;
-    /* /debug */
-}
-
-.logo {
-    margin-left: 8px;
-    width: 25%;
-    justify-content: start;
-}
-
-.links {
-    display: flex;
+    padding: 150px 300px;
     justify-content: center;
-    width: 50%;
-    /* debug */
-    border-left: 4px dashed black;
-    border-right: 4px dashed black;
-    /* /debug */
-}
-
-.login {
-    display: flex;
-    justify-content: end;
-    width: 25%;
-    margin-right: 8px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container2 {
     display: flex;
+    padding: 150px 300px;
     justify-content: center;
-    background-color: blue;
-    width: 100%;
-    height: 500px;
-}
-
-.scritte1 {
-    margin-top: 50px;
-    width: 48%;
-    height: 400px;
-    background-color: pink;
-    /* debug */
-    border: 2px dashed black;
-    /* /debug */
-}
-
-.block1 {
-    display: flex;
-    background-color: white;
-    width: 100%;
-}
-
-.container3 {
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    width: 60%;
-    height: 430px;
-    /* debug */
-    border: 2px dashed black;
-    /* /debug */
-}
-
-.scritte2 {
-    border-right: 4px dashed black;
-    width: 60%;
-    background-color: skyblue;
-}
-
-.scritte2-1 {
-    width: 40%;
-    background-color: pink;
-}
-
-
-.block2 {
-    display: flex;
-    background-color: lightgray;
-    width: 100%;
-}
-
-.container4 {
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    width: 60%;
-    height: 430px;
-    /* debug */
-    border: 2px dashed black;
-    /* /debug */
-}
-
-.scritte3 {
-    border-right: 4px dashed black;
-    width: 40%;
-    background-color: pink;
-}
-
-.scritte3-1 {
-    width: 60%;
-    background-color: skyblue;
-}
-
-.container5 {
-    display: flex;
-    width: 100%;
-    height: 800px;
-    background-color: lightpink;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.scritte4 {
-    background-color: green;
-    margin: auto;
-    width: 60%;
-    height: 800px;
-    /* debug */
-    border: 2px dashed black;
-    /* /debug */
-}
-
-.container6 {
-    padding-top: 5px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    background-color: brown;
-    width: 100%;
-    height: 500px;
-}
-
-.scritte5 {
-    display: flex;
-    margin: auto;
-    width: 60%;
-    height: 460px;
-    /* debug */
-    border: 2px dashed black;
-    /* /debug */
-}
-
-.scritte5-1 {
-    height: 100%;
-    width: 30%;
-    background-color: red;
-    /* debug */
-    border: 2px dashed black;
-    /* /debug */
-}
-
-.scritte5-2 {
-    height: 100%;
-    width: 17%;
-    background-color: yellowgreen;
-    /* debug */
-    border: 2px dashed white;
-    /* /debug */
-}
-
-.container7 {
-    display: flex;
-    width: 100%;
-    background-color: brown;
-    border-top: 2px solid white;
-    height: 100px;
-}
-
-.footer {
-    margin: auto;
-    margin-top: 35px;
-    display: flex;
-    height: 65%;
-    width: 60%;
-    background-color: bisque;
+    background-color: hsl(0deg 0% 96.47%);
+    align-items: center;
     justify-content: space-between;
 }
 
-.button {
-    align-self: center;
-    background-color: grey;
-    /* debug */
-    border: 2px dashed black;
-    /* /debug */
+.container3 {
+    display: flex;
+    padding: 150px 300px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.button2 {
-    align-self: center;
-    background-color: grey;
-    /* debug */
-    border: 2px dashed black;
-    /* /debug */
+.container4 {
+    padding: 150px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    /* non riesco a mettere il background-color */
 }
+
+.par3 {
+    line-height: 150px;
+    color: black;
+    font-size: 35px;
+    /* non sono riuscito a mettere la background-image: */
+}
+
+.download2 {
+    color: hsl(0deg 0% 100%);
+    background-color: hsl(227.18deg 58.19% 65.29%);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 0px 600px;
+}
+
