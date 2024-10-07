@@ -137,3 +137,72 @@ a {
     margin: 0px 600px;
 }
 
+.mainfooter {
+    display: flex;
+    background-color: hsl(205.71deg 9.09% 15.1%);
+    justify-content: center;
+    justify-content: space-between;
+    padding: 100px 200px;
+    color: hsl(0deg 0% 100%);
+    line-height: 40px;
+}
+
+.ftlist {
+    color: white;
+    font-size: 20px;
+    list-style: none;
+}
+
+.fttitles {
+    color: hsl(227.18deg 58.19% 65.29%);
+}
+
+.fttitle {
+    color: hsl(227.18deg 58.19% 65.29%);
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.twitter {
+    width: 20px;
+    height: 20px;
+}
+
+.instagram {
+    width: 20px;
+    height: 20px;
+}
+
+.facebook {
+    width: 20px;
+    height: 20px;
+}
+
+.youtube {
+    width: 20px;
+    height: 20px;
+}
+
+.italyflag{
+    width: 30px;
+}
+
+.ftcontainer {
+    display:flex;
+    background-color: hsl(205.71deg 9.09% 15.1%);
+    border-top: 1px solid hsl(227.18deg 58.19% 65.29%);
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding: 20px 100px 60px 100px;
+}
+
+.register {
+    color: white;
+    background-color: hsl(227.18deg 58.19% 65.29%);
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.ftbackground {
+    background-color: hsl(205.71deg 9.09% 15.1%);
+}
