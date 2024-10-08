@@ -116,7 +116,6 @@ a {
     display:flex;
     flex-direction: column;
     text-align: center;
-    /* non riesco a mettere il background-color */
 }
 
 .par3 {
@@ -203,3 +202,4 @@ a {
 .ftbackground {
     background-color: hsl(205.71deg 9.09% 15.1%);
 }
+
