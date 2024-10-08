@@ -118,10 +118,10 @@ a {
 }
 
 .par3 {
+    height: 50px;
     line-height: 150px;
     color: black;
     font-size: 35px;
-    /* non sono riuscito a mettere la background-image: */
 }
 
 .download2 {
@@ -202,3 +202,7 @@ a {
     background-color: hsl(205.71deg 9.09% 15.1%);
 }
 
+.stars {
+    margin-bottom: -100px;
+    width: 50%;
+}
