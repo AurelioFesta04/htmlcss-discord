@@ -43,7 +43,6 @@ a {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 600px;
     line-height: 40px;
     padding: 190px;
     align-items: center;
