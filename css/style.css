@@ -38,15 +38,15 @@ a {
 }
 
 .hero {
-    background-color: hsl(222.77deg 81.59% 53.14%);
+    background-image: url(../img-2/jumbo.png);
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     height: 600px;
     line-height: 40px;
     padding: 190px;
     align-items: center;
-
-    /* non riesco a mettere l'immagine di background */
 }
 
 .title1 {
